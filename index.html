@@ -3,9 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Form Pelanggan</title>
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    
+    <div class="logo">
+        <img src="assets/Homie.png" alt="logo" width="300" height="100" />
+    </div>
+    <div class="container">
+        <h1>Registrasi Pelanggan</h1>
+
+        <form class="form" id="formPelanggan">
+            <div>
+                <label for="nama-depan">Nama depan : </label>
+                <input type="text" id="nama-depan">
+            </div>
+            <br>
+            <div>
+                <label for="nama-belakang">Nama belakang : </label>
+                <input type="text" id="nama-belakang">
+            </div>
+            <br>
+            <div>
+                <label for="nik">NIK : </label>
+                <input type="number" id="nik">
+            </div>
+            <br>
+            <div>
+                <label for="gender">Gender : </label><br>
+                <input type="radio" name="gender" value="Laki-laki">Laki-laki<br>
+                <input type="radio" name="gender" value="Perempuan">Perempuan<br>
+            </div>
+            <br>
+            <label for="no-hp">Nomor hp : +62 </label>
+            <input type="number" id="nomor">
+            <br>
+            <br>
+            <div>
+                <label for="email">Email : </label>
+                <input type="text" id="email">
+            </div>
+            <br>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
