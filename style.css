@@ -51,7 +51,7 @@ h1 {
     border: none;
     cursor: pointer;
     padding: 10px;
-    background:rgb(30, 90, 240);
+    background:#333;
     color: white;
     text-transform: uppercase;
     letter-spacing: 1px;
